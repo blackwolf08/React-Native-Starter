@@ -1,18 +1,14 @@
 import * as React from "react";
 import { StyleSheet } from "react-native";
-import { Layout, Text } from "@ui-kitten/components";
+import { Text, Layout } from "@ui-kitten/components";
 
-export default function HomeScreen() {
+export default function SearchScreen() {
   return (
     <Layout style={styles.container}>
-      <Text>HomeScreen</Text>
+      <Text>Search Screen</Text>
     </Layout>
   );
 }
-
-HomeScreen.navigationOptions = {
-  header: null
-};
 
 const styles = StyleSheet.create({
   container: {
